@@ -19,13 +19,14 @@ The goal is not only to complete the programme but also to build practical proje
 
 ## Weekly Progress
 
-| Week | Topic | Status |
-|------|-------|--------|
-| Week 1 | Data Engineering Foundations | ✅ Completed |
-| Week 2 | Big Data Fundamentals | ⏳ In Progress |
-| Week 3 | Docker & System Design | ⏳ Pending |
-| Week 4 | Apache Airflow | ⏳ Pending |
-| Week 5 | PySpark & Capstone | ⏳ Pending |
+| Week   | Topic                                              | Status      |
+| ------ | -------------------------------------------------- | ----------- |
+| Week 1 | Data Engineering Foundations                       | ✅ Completed |
+| Week 2 | Big Data Architecture, Security, Quality & Lineage | ✅ Completed |
+| Week 3 | Docker & System Design                             | ⏳ Pending   |
+| Week 4 | Apache Airflow                                     | ⏳ Pending   |
+| Week 5 | PySpark & Capstone                                 | ⏳ Pending   |
+
 
 ## Objectives
 
