@@ -13,6 +13,10 @@
 
 - Designed a conceptual Big Data Architecture using draw.io for a global logistics company.
 
+## Architecture Diagram
+
+![Architecture Diagram](architecture-diagram.png)
+
 ## Learning Outcomes
 
 By the end of this week I understood:
