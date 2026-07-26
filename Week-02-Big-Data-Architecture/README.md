@@ -22,3 +22,12 @@ By the end of this week I understood:
 - Data quality principles.
 - Data lineage and metadata.
 - Basic concepts of containerization and Docker.
+
+- ## Skills Acquired
+
+- Big Data Architecture Design
+- Data Security Fundamentals
+- Data Quality Principles
+- Data Lineage
+- Containerization Concepts
+- Docker Basics
