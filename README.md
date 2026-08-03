@@ -19,14 +19,29 @@ The goal is not only to complete the programme but also to build practical proje
 
 ## Weekly Progress
 
-| Week   | Topic                                              | Status      |
-| ------ | -------------------------------------------------- | ----------- |
-| Week 1 | Data Engineering Foundations                       | ✅ Completed |
+| Week | Topic | Status |
+|------|--------|--------|
+| Week 1 | Data Engineering Foundations | ✅ Completed |
 | Week 2 | Big Data Architecture, Security, Quality & Lineage | ✅ Completed |
-| Week 3 | Docker & System Design                             | ⏳ Pending   |
-| Week 4 | Apache Airflow                                     | ⏳ Pending   |
-| Week 5 | PySpark & Capstone                                 | ⏳ Pending   |
+| Week 3 | Big Data Fundamentals, Docker & Streaming Technologies | ✅ Completed |
+| Week 4 | Docker & System Design | ⏳ Pending |
+| Week 5 | Apache Airflow & Orchestration | ⏳ Pending |
+| Week 6 | Apache Airflow & Orchestration | ⏳ Pending |
+| Week 7 | Docker & System Design | ⏳ Pending |
+| Week 8 | PySpark & Big Data Processing | ⏳ Pending |
+| Week 9 | PySpark & Big Data Processing | ⏳ Pending |
+| Week 10 | PySpark & Big Data Processing | ⏳ Pending |
+| Week 11-15 | Capstone Projects | ⏳ Pending |
 
+## Repository Structure
+
+```text
+ALX-Data-Engineering/
+├── Week-01-Foundations/
+├── Week-02-Big-Data-Architecture/
+├── Week-03-Big-Data-Fundamentals/
+└── README.md
+```
 
 ## Objectives
 
@@ -34,6 +49,11 @@ The goal is not only to complete the programme but also to build practical proje
 - Develop strong software engineering practices.
 - Maintain a professional GitHub portfolio.
 - Prepare for remote and international Data Engineering opportunities.
+
+## Current Progress
+
+**Weeks Completed:** 3/15  
+**Current Focus:** Big Data Fundamentals, Docker & Streaming Technologies
 
 ---
 
