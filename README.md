@@ -1,5 +1,7 @@
 # ALX Data Engineering Journey 🚀
 
+# ALX Data Engineering Journey 🚀
+
 Welcome to my Data Engineering learning journey through the ALX Data Engineering Programme.
 
 ## About
@@ -23,15 +25,19 @@ The goal is not only to complete the programme but also to build practical proje
 |------|--------|--------|
 | Week 1 | Data Engineering Foundations | ✅ Completed |
 | Week 2 | Big Data Architecture, Security, Quality & Lineage | ✅ Completed |
-| Week 3 | Big Data Fundamentals, Docker & Streaming Technologies | ✅ Completed |
-| Week 4 | Docker & System Design | ✅ Completed |
-| Week 5 | Apache Airflow & Orchestration | ⏳ Pending |
-| Week 6 | Apache Airflow & Orchestration | ⏳ Pending |
-| Week 7 | Docker & System Design | ⏳ Pending |
-| Week 8 | PySpark & Big Data Processing | ⏳ Pending |
-| Week 9 | PySpark & Big Data Processing | ⏳ Pending |
-| Week 10 | PySpark & Big Data Processing | ⏳ Pending |
-| Week 11-15 | Capstone Projects | ⏳ Pending |
+| Week 3 | Big Data Fundamentals, Data Pipelines & Scalability | ✅ Completed |
+| Week 4 | Pipeline Orchestration, Airflow Concepts & Hadoop Fundamentals | ✅ Completed |
+| Week 5 | Docker Fundamentals & Containerization | 🔄 In Progress |
+| Week 6 | Docker for Data Engineering Workflows | ⏳ Pending |
+| Week 7 | Advanced Docker Concepts & Applications | ⏳ Pending |
+| Week 8 | Apache Airflow & Workflow Orchestration | ⏳ Pending |
+| Week 9 | Apache Airflow Projects & Automation | ⏳ Pending |
+| Week 10 | Apache Spark & Distributed Computing | ⏳ Pending |
+| Week 11 | Apache Spark Data Processing | ⏳ Pending |
+| Week 12 | Apache Spark Optimization & Applications | ⏳ Pending |
+| Week 13 | Capstone Project | ⏳ Pending |
+| Week 14 | Capstone Project | ⏳ Pending |
+| Week 15 | Capstone Project & Portfolio Completion | ⏳ Pending |
 
 ## Repository Structure
 
@@ -40,6 +46,8 @@ ALX-Data-Engineering/
 ├── Week-01-Foundations/
 ├── Week-02-Big-Data-Architecture/
 ├── Week-03-Big-Data-Fundamentals/
+├── Week-04-Pipeline-Orchestration/
+├── Week-05-Docker-Fundamentals/
 └── README.md
 ```
 
@@ -52,18 +60,44 @@ ALX-Data-Engineering/
 
 ## Current Progress
 
-**Weeks Completed:** 4/15  
-**Current Focus:** Big Data Fundamentals, Docker & Streaming Technologies
+**Program:** ALX Data Engineering 2026
+
+**Weeks Completed:** 4/15
+
+**Current Sprint:** Docker
+
+### Current Focus
+
+- Containerization Concepts
+- Docker Architecture
+- Docker Images and Containers
+- Docker Environment Setup
+- Container Lifecycle Management
+- Docker for Data Engineering Workflows
+
+### Completed Foundation Topics
+
+- Data Engineering Fundamentals
+- Big Data Architecture
+- Data Security, Quality & Lineage
+- Data Pipelines & Scalability
+- Workflow Orchestration Concepts
+- Apache Airflow Fundamentals
+- DAG Design and Scheduling
+- Pipeline Triggers and Automation
+- Hadoop Fundamentals (HDFS, MapReduce, YARN)
 
 ### Week 4 Achievements
+
 - Set up Apache Airflow using Docker
 - Created and executed my first DAG
 - Learned workflow orchestration concepts
 - Practiced cron scheduling
 - Explored data-pipeline triggers and automation
 - Studied scalability principles and bottlenecks
-- Applied scaling concepts to a real-world e-commerce scenario
+- Applied scalability concepts to a real-world e-commerce case study
 - Learned Hadoop architecture (HDFS, MapReduce, YARN)
+
 ---
 
 *"Consistency beats intensity."*
