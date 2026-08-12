@@ -24,7 +24,7 @@ The goal is not only to complete the programme but also to build practical proje
 | Week 1 | Data Engineering Foundations | ✅ Completed |
 | Week 2 | Big Data Architecture, Security, Quality & Lineage | ✅ Completed |
 | Week 3 | Big Data Fundamentals, Docker & Streaming Technologies | ✅ Completed |
-| Week 4 | Docker & System Design | ⏳ Pending |
+| Week 4 | Docker & System Design | ✅ Completed |
 | Week 5 | Apache Airflow & Orchestration | ⏳ Pending |
 | Week 6 | Apache Airflow & Orchestration | ⏳ Pending |
 | Week 7 | Docker & System Design | ⏳ Pending |
@@ -52,9 +52,18 @@ ALX-Data-Engineering/
 
 ## Current Progress
 
-**Weeks Completed:** 3/15  
+**Weeks Completed:** 4/15  
 **Current Focus:** Big Data Fundamentals, Docker & Streaming Technologies
 
+### Week 4 Achievements
+- Set up Apache Airflow using Docker
+- Created and executed my first DAG
+- Learned workflow orchestration concepts
+- Practiced cron scheduling
+- Explored data-pipeline triggers and automation
+- Studied scalability principles and bottlenecks
+- Applied scaling concepts to a real-world e-commerce scenario
+- Learned Hadoop architecture (HDFS, MapReduce, YARN)
 ---
 
 *"Consistency beats intensity."*
