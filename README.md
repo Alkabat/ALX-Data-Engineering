@@ -44,7 +44,7 @@ ALX-Data-Engineering/
 ├── Week-05-06-Docker-Sprint/
 ├── Week-07-08-Airflow-Sprint/
 ├── Week-09-10-Spark-Sprint-1/
-└── Week-11-Spark-Sprint-2/
+└── Week-11-Spark-Sprint-Part-2/
 ```
 
 ---
