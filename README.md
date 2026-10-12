@@ -1,42 +1,160 @@
-# ALX Data Engineering Journey
+# ALX Africa Data Engineering Programme
 
-## Overview
+Welcome to my ALX Africa Data Engineering learning repository. This repository documents my learning journey, practical exercises, notes, reflections, and projects as I develop my skills in data engineering.
 
-This repository documents my learning journey through the **ALX Data Engineering Programme**, including my notes, practical exercises, projects, reflections, troubleshooting experiences, and key milestones.
+Throughout the programme, I have worked through the course materials and completed practical exercises to strengthen my understanding of data engineering concepts, tools, and workflows.
 
-The programme covers the core skills required to design, build, orchestrate, optimize, and deploy modern data pipelines and data-processing systems.
+My learning journey has covered foundational data engineering concepts, big data architecture, data pipelines, Docker, Apache Airflow, Apache Spark, data processing, and Spark optimisation.
 
-I am using this repository to document not only what I learn, but also how I apply the concepts through hands-on projects, practical exercises, experimentation, problem solving, and troubleshooting.
+## Learning Objectives
 
----
+The main objectives of this programme are to:
 
-## Programme Structure
+- Understand data engineering principles and big data architecture.
+- Develop skills in building and managing data pipelines.
+- Work with containerisation using Docker.
+- Orchestrate data workflows using Apache Airflow.
+- Process and transform large datasets using Apache Spark.
+- Understand Structured Streaming and Delta Lake concepts.
+- Optimise Spark applications for better performance and resource utilisation.
+- Apply data quality practices to improve the reliability of data pipelines.
+- Build practical projects that demonstrate data engineering skills.
 
-The programme runs for **15 weeks**, covering foundational concepts, data engineering tools, workflow orchestration, distributed data processing, Spark optimization, and a final capstone project.
+## Programme Progress
 
-### Weekly Progress
+### Weeks 1–4: Data Engineering Foundations
 
-| Week        | Focus Area                                                                        | Status         |
-| ----------- | --------------------------------------------------------------------------------- | -------------- |
-| Week 1      | Professional Foundations                                                          | ✅ Completed    |
-| Week 2      | Big Data Architecture                                                             | ✅ Completed    |
-| Week 3      | Big Data Fundamentals                                                             | ✅ Completed    |
-| Week 4      | Pipeline Orchestration, Airflow Concepts & Hadoop Fundamentals                    | ✅ Completed    |
-| Weeks 5–6   | Docker Sprint                                                                     | ✅ Completed    |
-| Weeks 7–8   | Apache Airflow Sprint                                                             | ✅ Completed    |
-| Weeks 9–10  | Apache Spark Sprint — Part 1                                                      | ✅ Completed    |
-| Week 11     | Apache Spark Sprint — Part 2: Data Engineering, Structured Streaming & Delta Lake | ✅ Completed    |
-| Week 12     | Apache Spark Optimization                                                         | 🔄 In Progress |
-| Weeks 13–15 | Capstone Project & Portfolio Development                                          | ⏳ Pending      |
+These weeks introduced the foundational concepts of data engineering, including data systems, big data architecture, data processing, and pipeline orchestration.
 
----
+Key learning areas included:
+
+- Introduction to data engineering.
+- Data engineering roles and responsibilities.
+- Big data fundamentals and architecture.
+- Data storage and processing concepts.
+- Data pipelines and workflow orchestration.
+- Understanding how data moves through different stages of a pipeline.
+
+### Weeks 5–6: Docker Sprint
+
+This section focused on containerisation and the role Docker plays in developing consistent and portable data engineering environments.
+
+Key learning areas included:
+
+- Understanding Docker and containerisation.
+- Working with Docker images and containers.
+- Understanding Dockerfiles.
+- Managing container environments.
+- Using Docker to support data engineering workflows.
+
+### Weeks 7–8: Apache Airflow Sprint
+
+This section introduced workflow orchestration with Apache Airflow and the management of automated data pipelines.
+
+Key learning areas included:
+
+- Understanding Apache Airflow.
+- Working with Directed Acyclic Graphs (DAGs).
+- Defining tasks and dependencies.
+- Scheduling and monitoring workflows.
+- Understanding task execution and workflow management.
+- Applying orchestration concepts to data engineering pipelines.
+
+### Weeks 9–10: Apache Spark Sprint — Part 1
+
+These weeks introduced Apache Spark and distributed data processing, with practical exercises in the Spark environment.
+
+Key learning areas included:
+
+- Introduction to Apache Spark.
+- Understanding Spark architecture.
+- Working with Spark DataFrames.
+- Transforming and processing datasets.
+- Understanding lazy evaluation.
+- Working with Spark operations and execution plans.
+- Exploring distributed data processing concepts.
+
+### Week 11: Apache Spark Sprint — Part 2
+
+This section expanded my understanding of Spark through data processing, Structured Streaming, and Delta Lake concepts.
+
+Key learning areas included:
+
+- Working with Spark Structured Streaming.
+- Understanding streaming data sources and processing.
+- Exploring Delta Lake.
+- Reading and writing data using Delta Lake.
+- Understanding data updates and merge operations.
+- Exploring concepts such as upserts and time travel.
+- Practising data processing workflows in the Spark environment.
+
+### Week 12: Optimizing Spark
+
+**Status: Completed**
+
+This week focused on improving the performance, scalability, and reliability of Apache Spark applications. I worked through the lessons and carried out practical exercises alongside the training in my Ubuntu Spark environment.
+
+Topics covered included:
+
+- Optimizing Spark applications.
+- Scaling Spark for large workloads.
+- Caching and persistence in Spark.
+- Running Spark applications on clusters.
+- Applying the Spark UI to monitor execution.
+- Identifying common errors in PySpark applications.
+- Troubleshooting PySpark applications.
+- Using debugging tools for PySpark.
+- Interpreting PySpark error logs.
+- Optimizing PySpark code for performance.
+
+The practical work helped me connect the concepts to Spark execution, resource utilisation, data processing, and performance optimisation.
+
+### Week 13: Data Quality With Spark
+
+**Status: Upcoming**
+
+This week will focus on applying data quality principles using Apache Spark to improve the accuracy, consistency, completeness, and reliability of data.
+
+Planned learning areas include:
+
+- Understanding data quality in data engineering.
+- Identifying missing and null values.
+- Detecting duplicate records.
+- Validating data types and schemas.
+- Applying data quality rules and checks.
+- Identifying inconsistent or invalid records.
+- Using Spark transformations to validate and clean datasets.
+- Improving the reliability of data pipelines through data quality checks.
+
+The objective is to understand how data quality checks can be incorporated into Spark-based processing workflows.
+
+### Weeks 14–15: Capstone Project and Portfolio Development
+
+**Status: Upcoming**
+
+These weeks will focus on applying the knowledge and practical skills developed throughout the programme to capstone work and portfolio development.
+
+Planned activities include:
+
+- Applying data engineering concepts to practical project work.
+- Bringing together relevant tools and technologies covered during the programme.
+- Developing and documenting data engineering projects.
+- Organising project files and documentation.
+- Updating the GitHub repository to demonstrate learning and practical experience.
+- Reviewing project structure, documentation, and implementation.
+- Preparing a portfolio that showcases the skills developed throughout the programme.
+
+The goal is to demonstrate the ability to apply data engineering concepts in practical scenarios and present the resulting work clearly.
 
 ## Repository Structure
 
+The repository is organised to document my progress across the programme. The following is the intended high-level structure; individual folder names should match the actual directories in the repository.
+
 ```text
 ALX-Data-Engineering/
-
+│
 ├── README.md
+│
 ├── Week-01-Foundations/
 ├── Week-02-Big-Data-Architecture/
 ├── Week-03-Big-Data-Fundamentals/
@@ -44,358 +162,65 @@ ALX-Data-Engineering/
 ├── Week-05-06-Docker-Sprint/
 ├── Week-07-08-Airflow-Sprint/
 ├── Week-09-10-Spark-Sprint-1/
-└── Week-11-Spark-Sprint-Part-2/
+├── Week-11-Spark-Sprint-Part-2/
+├── Week-12-Spark-Optimization/
+├── Week-13-Data-Quality-With-Spark/
+│
+└── Weeks-14-15-Capstone-and-Portfolio/
 ```
 
----
+Each section may contain lesson notes, practical exercises, reflections, code samples, and supporting documentation relevant to that stage of the programme.
 
-# Completed Learning Areas
+## Learning Approach
 
-## Weeks 1–4: Foundations
+My approach to learning throughout this programme has been to combine theoretical understanding with practical application.
 
-Covered the foundational concepts required for a career in data engineering, including:
+This includes:
 
-* Professional foundations
-* Data engineering concepts
-* Big Data architecture
-* Big Data fundamentals
-* Data pipelines
-* Hadoop ecosystem
-* Distributed computing concepts
-* Pipeline orchestration concepts
+- Studying the provided course materials.
+- Completing knowledge checks and exercises.
+- Practising concepts in the relevant development environments.
+- Recording technical notes and reflections.
+- Using Git and GitHub to track and document my learning.
+- Revisiting errors and troubleshooting issues to improve my understanding.
+- Building progressively on concepts learned in earlier weeks.
 
----
+## Tools and Technologies
 
-## Weeks 5–6: Docker Sprint
+The tools and technologies covered throughout my learning journey include:
 
-Focused on containerization and the use of Docker in data engineering workflows.
+- **Python** — programming and data processing.
+- **SQL** — querying and working with structured data.
+- **Git and GitHub** — version control and project documentation.
+- **Docker** — containerisation and environment management.
+- **Apache Airflow** — workflow orchestration.
+- **Apache Spark** — distributed data processing.
+- **Spark Structured Streaming** — processing streaming data.
+- **Delta Lake** — working with reliable data storage and table operations.
+- **Ubuntu** — practical development and learning environment.
 
-Key areas included:
+## Current Progress Summary
 
-* Docker fundamentals
-* Docker images and containers
-* Dockerfiles
-* Docker Compose
-* Container networking
-* Persistent storage and volumes
-* Running data engineering services in containers
-* Troubleshooting Docker environments
+| Programme section | Status |
+|---|---|
+| Weeks 1–4: Foundations | Covered |
+| Weeks 5–6: Docker | Covered |
+| Weeks 7–8: Apache Airflow | Covered |
+| Weeks 9–10: Apache Spark Part 1 | Covered |
+| Week 11: Apache Spark Part 2 | Covered |
+| Week 12: Optimizing Spark | Completed |
+| Week 13: Data Quality With Spark | Upcoming |
+| Weeks 14–15: Capstone and Portfolio | Upcoming |
 
----
+## Conclusion
 
-## Weeks 7–8: Apache Airflow Sprint
+This repository represents my ongoing development as a data engineer through the ALX Africa Data Engineering programme. It documents my learning, practical exercises, technical notes, and reflections as I build a stronger understanding of data engineering tools and practices.
 
-Focused on workflow orchestration using **Apache Airflow**.
+Having completed the learning and practical work for Week 12, my next focus is **Data Quality With Spark in Week 13**, followed by capstone project work and portfolio development in Weeks 14–15.
 
-Key areas included:
+I will continue updating this repository as I progress through the remaining programme activities and apply the skills acquired to practical data engineering projects.
 
-* Airflow architecture
-* DAGs
-* Tasks and operators
-* Scheduling
-* Dependencies
-* Sensors
-* Task execution
-* Airflow UI
-* Docker-based Airflow deployment
-* Pipeline orchestration and automation
-
----
-
-# Weeks 9–10: Apache Spark Sprint — Part 1
-
-Focused on the foundations of distributed data processing using **Apache Spark** and **PySpark**.
-
-Key areas included:
-
-* Big Data processing
-* Hadoop ecosystem
-* Apache Spark architecture
-* Spark DataFrames
-* Structured APIs
-* Spark SQL
-* DataFrame transformations and actions
-* Aggregations
-* Joins
-* Window functions
-* Complex data types
-* User-Defined Functions (UDFs)
-* Pandas UDFs
-* JDBC connectivity
-* Reading from PostgreSQL using Spark
-* Writing Spark DataFrames to PostgreSQL
-
-### Practical Environment
-
-The Spark exercises were completed using:
-
-* Python
-* PySpark
-* Apache Spark 4.2.0
-* PostgreSQL 13
-* PostgreSQL JDBC Driver
-* Docker
-* Docker Desktop
-* WSL2 Ubuntu
-* Windows
-
-A PostgreSQL database was integrated with Spark through JDBC to practice reading and writing data between Spark and a relational database.
-
-Detailed Spark Sprint Part 1 documentation is available in:
-
-```text
-Week-09-10-Spark-Sprint-1/
-
-├── README.md
-├── Notes.md
-└── Reflections.md
-```
-
----
-
-# Week 11: Apache Spark Sprint — Part 2
-
-Week 11 continued the Spark learning track by moving from the foundational Spark concepts covered in Weeks 9–10 into broader **data-engineering workflows**.
-
-The focus was on data transformation, data quality, security, Structured Streaming, and Delta Lake.
-
-### Key Learning Areas
-
-* Data translation and mapping
-* Data filtering
-* Aggregation and summarization
-* Data enrichment
-* Data imputation
-* Indexing and ordering
-* Anonymization
-* Encryption
-* Data modelling
-* Typecasting
-* Formatting
-* Column renaming
-* Pivoting
-* Structured Streaming
-* Delta Lake
-
-### Structured Streaming
-
-I explored Spark Structured Streaming and worked with Spark's built-in `rate` source to generate continuously arriving data.
-
-This helped me understand the difference between traditional batch processing and streaming data processing.
-
-I also practiced writing streaming data into Delta Lake.
-
-### Delta Lake
-
-I worked practically with **Delta Lake 4.4.0** alongside **Apache Spark 4.2.0**.
-
-The Delta Lake exercises included:
-
-* Creating Delta tables
-* Reading Delta tables
-* Updating records
-* Deleting records
-* Viewing transaction history
-* Time travel
-* MERGE / UPSERT operations
-* Writing streaming data to Delta
-* Reading Delta as a streaming source
-
-I also used:
-
-```python
-.trigger(availableNow=True)
-```
-
-to process currently available streaming data and allow the streaming query to terminate automatically.
-
-### Spark + Delta Architecture
-
-The practical exercises helped me understand how Spark and Delta Lake can work together:
-
-```text
-              Data Source
-                   |
-                   v
-        +----------------------+
-        |      Apache Spark    |
-        | Structured Streaming |
-        +----------+-----------+
-                   |
-                   v
-        +----------------------+
-        |      Delta Lake      |
-        | Reliable Storage     |
-        | Version History      |
-        | Updates / Deletes    |
-        | MERGE / UPSERT       |
-        +----------+-----------+
-                   |
-          +--------+--------+
-          |                 |
-          v                 v
-      Batch Read       Stream Read
-```
-
-Detailed Week 11 documentation is available in:
-
-```text
-Week-11-Spark-Sprint-2/
-
-├── README.md
-├── Notes.md
-└── Reflections.md
-```
-
----
-
-# Week 12: Apache Spark Optimization
-
-Week 12 will focus on **Spark Optimization**.
-
-Building on the Spark processing and Structured Streaming foundations from Weeks 9–11, this phase will focus on understanding how Spark applications can be made more efficient, scalable, and resource-conscious.
-
-### Planned Learning Areas
-
-The focus will include concepts such as:
-
-* Spark execution and performance
-* Lazy evaluation
-* Query execution plans
-* Catalyst Optimizer
-* Tungsten execution engine
-* Partitioning
-* Repartitioning
-* Coalescing
-* Shuffles
-* Data skew
-* Caching and persistence
-* Broadcast joins
-* Join optimization
-* Serialization
-* Memory management
-* Spark UI and performance monitoring
-* Adaptive Query Execution
-* Optimization of Spark transformations and actions
-
-The goal is to understand not only **how to make Spark work**, but also **how to make Spark work efficiently**.
-
----
-
-# Upcoming Learning
-
-## Week 12: Spark Optimization
-
-The immediate focus is **Spark Optimization**.
-
-This will build directly on the Spark DataFrame, Structured Streaming, and Delta Lake knowledge developed during Weeks 9–11.
-
-The objective is to develop a deeper understanding of what happens inside Spark when a job is executed and how data engineers can identify and resolve performance bottlenecks.
-
----
-
-## Weeks 13–15: Capstone Project & Portfolio Development
-
-The final phase will focus on applying the knowledge gained throughout the programme to a practical data-engineering capstone project.
-
-Planned areas include:
-
-* End-to-end data pipeline development
-* Data ingestion
-* Data transformation
-* Data quality
-* Workflow orchestration
-* Data storage
-* Distributed data processing
-* Pipeline automation
-* Documentation
-* Testing
-* Troubleshooting
-* Portfolio development
-
-The capstone will provide an opportunity to bring together the technologies and concepts learned throughout the programme.
-
----
-
-# Tools & Technologies
-
-The programme and personal projects involve working with a range of data engineering technologies, including:
-
-* Python
-* SQL
-* PostgreSQL
-* Apache Hadoop
-* Apache Spark
-* PySpark
-* Delta Lake
-* Apache Airflow
-* Docker
-* Docker Compose
-* Power BI
-* Git
-* GitHub
-* Linux / WSL2
-* Jupyter
-* Google Colab
-
----
-
-# Learning Approach
-
-This repository is more than a collection of completed exercises.
-
-It documents the process of learning data engineering through:
-
-* Practical implementation
-* Hands-on experimentation
-* Problem solving
-* Debugging
-* Troubleshooting
-* Technical documentation
-* Reflection on lessons learned
-* Building and testing data pipelines
-* Understanding why technologies work, not just how to use them
-
-Throughout the programme, I have also documented challenges encountered across different environments, including Windows, WSL2, Docker, PostgreSQL, Apache Airflow, and Apache Spark.
-
-These experiences have helped me develop a more practical understanding of the relationship between code, infrastructure, networking, configuration, and data-processing systems.
-
----
-
-# Progress
-
-**Current Stage:** Week 11 completed — **Apache Spark Sprint, Part 2**
-
-**Next Stage:** Week 12 — **Apache Spark Optimization**
-
-### Current Journey
-
-```text
-Weeks 1–4
-Foundations
-     ↓
-Weeks 5–6
-Docker
-     ↓
-Weeks 7–8
-Apache Airflow
-     ↓
-Weeks 9–10
-Spark Sprint — Part 1
-     ↓
-Week 11
-Spark Sprint — Part 2
-     ↓
-Week 12
-Spark Optimization
-     ↓
-Weeks 13–15
-Capstone & Portfolio
-```
-
----
-
-# Author
+## Author
 
 **Kabati Ishaya**
 
